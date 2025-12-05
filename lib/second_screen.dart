@@ -70,7 +70,7 @@ class _ResultScreenState extends State<ResultScreen> {
           ),
           centerTitle: true,
         ),
-        body: Container(
+        body: SizedBox(
           height: double.infinity,
           width: double.infinity,
           child: Column(
@@ -104,7 +104,7 @@ class _ResultScreenState extends State<ResultScreen> {
                       color: bmiColor,
                       fontWeight: FontWeight.bold),
                 ),
-              Image(image: AssetImage("images/${imagepath}.png")),
+              Image(image: AssetImage("images/$imagepath.png")),
               GestureDetector(
                 onTap: () {
                   Navigator.pop(context);

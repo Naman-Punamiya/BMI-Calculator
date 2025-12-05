@@ -312,7 +312,6 @@ class _HomeScreenState extends State<HomeScreen> {
                               height: (heightSlider / 100),
                               weight: weight,
                               age: age)));
-                  ;
                 },
                 child: Container(
                   alignment: Alignment.center,
